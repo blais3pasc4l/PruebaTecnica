@@ -1,7 +1,8 @@
 # Wordpress en ECS
 
 ## Instrucciones
-Como estamos utilizando AWS ECR para almacenar nuestros contenedores Docker y nuestro clúster ECS está extrayendo de él, primero necesitaremos implementar nuestra infraestructura y luego construir y enviar nuestro contenedor de Wordpress
+Como estamos utilizando AWS ECR para almacenar nuestros contenedores Docker y nuestro clúster ECS está extrayendo de él,
+primero necesitaremos implementar nuestra infraestructura y luego construir y enviar nuestro contenedor de Wordpress
 
 Exporta tus credenciales de AWS
 ```
@@ -14,7 +15,10 @@ zip lambda_unhealty.zip python/lambda_unhealty.py
 zip lambda_function.zip python/lambda_function.py
 terraform apply
 ```
-
+NOTA: El codigo de la prueba Python (Paso 1 - NoOps) se dentro de la carpeta llamada python
+```
+python/lambda_unhealty.py
+```
 
 
 
