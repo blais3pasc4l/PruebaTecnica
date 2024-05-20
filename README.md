@@ -15,11 +15,11 @@ zip lambda_unhealty.zip python/lambda_unhealty.py
 zip lambda_function.zip python/lambda_function.py
 terraform apply
 ```
-NOTA: El codigo de la prueba Python (Paso 1 - NoOps) se dentro de la carpeta llamada python
+NOTA: El codigo de la prueba Python (Paso 1 - NoOps) se dentro de la carpeta llamada python.
+Las lambdas se encuentran desplegadas junto con la infraestructura del wordpress.
 ```
 python/lambda_unhealty.py
 ```
-
 
 
 
