@@ -25,7 +25,10 @@ python/lambda_unhealty.py
 
 
 #### Arquitectura implementada
+![Descripción de la imagen](https://github.com/blais3pasc4l/PruebaTecnica/blob/main/Untitled%20Diagram.drawio%20(2).png)
+
 (El NAT y la puerta de enlace a Internet no se muestran por motivos de claridad)
+
 ```
 us-west-2
 +--------------------------------------------------------------+
